@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="@drawable/head_bg"
+              android:layout_width="match_parent"
+              android:layout_height="50dp">
+    <TextView
+        android:id="@+id/title_left"
+        android:layout_gravity="center"
+        android:background="@drawable/head_back_selected"
+        android:text="xx"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_width="60dp"
+        android:layout_height="40dp"/>
+    <TextView
+        android:id="@id/title_center"
+        android:layout_gravity="center"
+        android:text="xxxxxxxxxxxxx"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@id/title_right"
+        android:layout_gravity="center"
+        android:background="@drawable/head_button_selected"
+        android:text="xx"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_width="60dp"
+        android:layout_height="40dp"/>
+</LinearLayout>

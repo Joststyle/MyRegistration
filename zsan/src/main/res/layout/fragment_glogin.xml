@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.d1.zsan.ui.fragment.GLoginFragment">
+
+    <ImageView
+        android:id="@+id/imgv_banner_glogin"
+        android:background="@drawable/backdrop"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+    <TextView
+        android:id="@+id/tv_id_glogin"
+        android:text="账号"
+        android:textSize="18sp"
+        android:layout_below="@+id/imgv_banner_glogin"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <Button
+        android:id="@+id/bt_manage_glogin"
+        android:layout_below="@+id/tv_id_glogin"
+        android:text="查看医生申请"
+        android:layout_width="150dp"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/bt_cen_glogin"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="退出"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:background="@drawable/button_long_selector"
+        android:layout_width="200dp"
+        android:layout_height="50dp"/>
+
+
+</RelativeLayout>

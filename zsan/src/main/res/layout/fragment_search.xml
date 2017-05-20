@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="com.example.d1.zsan.ui.fragment.SearchFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:background="@drawable/home_search2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="50dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/actv_search_frag_search"
+            android:hint="科室名"
+            android:background="@null"
+            android:completionThreshold="1"
+            android:imeOptions="actionSearch"
+            android:dropDownHeight="wrap_content"
+            android:dropDownWidth="200dp"
+            android:maxLength="16"
+            android:paddingLeft="40dp"
+            android:lines="1"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/bt_search_frag_search"
+            android:background="@null"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_frag_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

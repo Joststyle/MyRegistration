@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.d1.zsan.ui.activity.MainActivity">
+    <FrameLayout
+        android:id="@+id/layout_change_frag_main_activity"
+        android:layout_above="@+id/rg_navi_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+    <RadioGroup
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bar_bg"
+        android:id="@+id/rg_navi_main_activity"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_home_main_activity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bar_home_selector"
+            android:button="@null"/>
+        <RadioButton
+            android:id="@+id/rb_recommed_main_activity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bar_recommend_selector"
+            android:button="@null"/>
+        <RadioButton
+            android:id="@+id/rb_search_main_activity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bar_search_selector"
+            android:button="@null"/>
+        <RadioButton
+            android:id="@+id/rb_self_main_activity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bar_self_selector"
+            android:button="@null"/>
+        <RadioButton
+            android:id="@+id/rb_about_main_activity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bar_about_selector"
+            android:button="@null"/>
+
+    </RadioGroup>
+    <FrameLayout
+        android:id="@+id/layout_frag_welcome"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+</RelativeLayout>

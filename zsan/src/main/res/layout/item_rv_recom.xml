@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:background="#fff"
+                android:padding="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="160dp">
+    <ImageView
+        android:layout_marginRight="10dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/imgv_item_lv_limit"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/border_82"
+        android:padding="5dp"
+        android:src="@mipmap/ic_launcher"/>
+
+    <ImageView
+        android:id="@+id/imgv_arrow"
+        android:src="@drawable/arrow"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="15dp"
+        android:layout_height="15dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_title_item_lv_limit"
+        android:layout_toRightOf="@+id/imgv_item_lv_limit"
+        android:layout_toLeftOf="@+id/imgv_arrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lines="2"
+        android:layout_marginBottom="5dp"
+        android:text="yiyuanmingcheng"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_xxtj_item_lv_limit"
+        android:layout_toRightOf="@+id/imgv_item_lv_limit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_old_price_item_lv_limit"
+        android:layout_marginBottom="5dp"
+        android:text="yishengmingcheng"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/bt_buy_item_lv_limit"
+        android:text="详细信息"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:textColor="#fff"
+        android:textSize="12sp"
+        android:background="@drawable/button_long_selector"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <TextView
+        android:id="@+id/tv_old_price_item_lv_limit"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="keshixinxi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title_item_lv_limit"
+        android:layout_toRightOf="@+id/imgv_item_lv_limit"
+        android:layout_toEndOf="@+id/imgv_item_lv_limit"/>
+</RelativeLayout>

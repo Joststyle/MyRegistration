@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:background="#fff"
+              android:layout_width="match_parent"
+              android:padding="10dp"
+              android:layout_height="60dp">
+    <TextView
+        android:id="@+id/tv_title_lv_home_frag"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/arrow"
+        android:layout_width="10dp"
+        android:layout_height="15dp"/>
+</LinearLayout>
